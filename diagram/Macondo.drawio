@@ -1,9 +1,120 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="28.2.9">
   <diagram name="第 1 页" id="c9iXPKxaxAvypW1oMwuJ">
-    <mxGraphModel>
+    <mxGraphModel dx="2718" dy="2240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--15" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Gomacondo RBAC enforce the AuthZ process&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;" vertex="1" parent="1">
+          <mxGeometry y="-20" width="570" height="361" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--1" value="observability.land.gomacondo.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="300" y="188" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--2" value="workloads.land.gomacondo.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="300" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--3" value="management.land.gomacondo.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--4" value="audit.land.gomacondo.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="265.5" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--5" value="delivery.land.gomacondo.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--6" value="users.land.gomacondo.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--7" value="cicd.land.gomacondo.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="300" y="265.5" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--8" value="authz.land.gomacondo.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="188" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gEz2Xx-hoj74M_pA8Em--9" target="gEz2Xx-hoj74M_pA8Em--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--9" value="kube-apiserver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="130.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--12" value="Aggregate API" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="120.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gEz2Xx-hoj74M_pA8Em--13" target="gEz2Xx-hoj74M_pA8Em--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--13" value="authn.land.gomacondo.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="133" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--18" value="User impersonation" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="120.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--19" value="SA" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="160.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--21" value="Engineering, PlatformAdmin, SRE, QA" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="435" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--32" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Tag.svg;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="685" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--34" value="&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;tags/scope:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; project: order&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; env: prod&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; domain: business&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="725" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--35" value="management.cluster.register&#xa;management.cluster.update&#xa;management.platform.settings.read&#xa;management.platform.settings.update&#xa;&#xa;&#xa;Role: platform-admin&#xa;Actions:&#xa;- management.*&#xa;Scope: *" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="128" y="435" width="252" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--37" value="users.user.create&#xa;users.user.update&#xa;users.user.disable&#xa;users.role.bind&#xa;users.role.unbind&#xa;&#xa;&#xa;Role: iam-admin&#xa;Actions:&#xa;- users.*&#xa;Scope:&#xa;  domain: iam&#xa;&#xa;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="398" y="435" width="252" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--38" value="authnz.policy.create&#xa;authnz.policy.update&#xa;authnz.policy.read&#xa;authnz.policy.delete&#xa;&#xa;&#xa;Role: security-auditor&#xa;Actions:&#xa;- authnz.policy.read&#xa;- audit.*&#xa;Scope: *" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="770" width="252" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--39" value="audit.log.read&#xa;audit.log.export&#xa;&#xa;&#xa;Role: compliance&#xa;Actions:&#xa;- audit.log.read&#xa;Scope:&#xa;  project: order&#xa;  env: prod" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="398" y="655" width="252" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--40" value="workloads.deploy&#xa;workloads.update&#xa;workloads.rollback&#xa;workloads.scale&#xa;workloads.read&#xa;&#xa;Role: app-developer&#xa;Actions:&#xa;- workloads.deploy&#xa;- workloads.update&#xa;- workloads.read&#xa;Scope:&#xa;  project: order&#xa;  env: staging&#xa;&#xa;Role: project-ops&#xa;Actions:&#xa;- workloads.*&#xa;Scope:&#xa;  project: payment&#xa;  env: prod&#xa;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="435" width="250" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--41" value="delivery.app.create&#xa;delivery.app.update&#xa;delivery.app.delete&#xa;delivery.app.read&#xa;delivery.component.read&#xa;&#xa;Role: app-architect&#xa;Actions:&#xa;- delivery.app.*&#xa;Scope:&#xa;  project: order&#xa;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="435" width="250" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--42" value="observability.metrics.query&#xa;observability.logs.query&#xa;observability.traces.query&#xa;&#xa;&#xa;Role: app-developer&#xa;Actions:&#xa;- observability.metrics.query&#xa;- observability.logs.query&#xa;Scope:&#xa;  project: order&#xa;  env: staging&#xa;&#xa;Role: sre&#xa;Actions:&#xa;- observability.*&#xa;Scope:&#xa;  env: prod" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="650" width="250" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--43" value="cicd.pipeline.trigger&#xa;cicd.pipeline.read&#xa;cicd.artifact.read&#xa;&#xa;&#xa;Subject: serviceaccount:ci-bot&#xa;Role: cicd-runner&#xa;Actions:&#xa;- cicd.pipeline.trigger&#xa;Scope:&#xa;  project: order" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="128" y="655" width="250" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--45" value="&lt;div&gt;┌───────────┐&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;User&amp;nbsp; &amp;nbsp; │&lt;/div&gt;&lt;div&gt;└─────┬─────┘&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ▼&lt;/div&gt;&lt;div&gt;┌───────────┐&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;Role&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;← 描述“职责”&lt;/div&gt;&lt;div&gt;└─────┬─────┘&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ▼&lt;/div&gt;&lt;div&gt;┌───────────┐&lt;/div&gt;&lt;div&gt;│&amp;nbsp; Action&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;← 模块定义的能力&lt;/div&gt;&lt;div&gt;└─────┬─────┘&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ▼&lt;/div&gt;&lt;div&gt;┌───────────┐&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;Scope&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;← 资源语义标签&lt;/div&gt;&lt;div&gt;└─────┬─────┘&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ▼&lt;/div&gt;&lt;div&gt;┌───────────┐&lt;/div&gt;&lt;div&gt;│&amp;nbsp; Decision │&lt;/div&gt;&lt;div&gt;└───────────┘&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--47" value="&amp;nbsp;&lt;b&gt;Subject&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;User&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ServiceAccount&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;External Identity（OIDC / LDAP）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="310" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--48" value="&amp;nbsp;&lt;b&gt;Role&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;platform-admin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;project-ops&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;app-developer&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;observer&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;security-auditor&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="430" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--49" value="&amp;nbsp;&lt;b&gt;Action&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;module&amp;gt;.&amp;lt;resource&amp;gt;.&amp;lt;verb&amp;gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="584.5" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--50" value="&amp;nbsp;&lt;b&gt;Scope&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;cluster&lt;/div&gt;&lt;div&gt;project&lt;/div&gt;&lt;div&gt;env&lt;/div&gt;&lt;div&gt;namespace&lt;/div&gt;&lt;div&gt;domain&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="690" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--51" value="&amp;nbsp;&lt;b&gt;Policy&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Role + Action + Scope → Allow / Deny&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="840" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--52" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Gomacondo RBAC&lt;/font&gt;&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="375.5" width="220" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--53" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Who&lt;/b&gt;&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.question;" vertex="1" parent="1">
+          <mxGeometry x="-230.5" y="10" width="41" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--56" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Capabilities&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-90" width="450" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gEz2Xx-hoj74M_pA8Em--58" value="&lt;div&gt;User&lt;/div&gt;&lt;div&gt;&amp;nbsp;│&lt;/div&gt;&lt;div&gt;&amp;nbsp;│ ① HTTP Request (with identity)&lt;/div&gt;&lt;div&gt;&amp;nbsp;▼&lt;/div&gt;&lt;div&gt;AuthN (OIDC / SSO)&lt;/div&gt;&lt;div&gt;&amp;nbsp;│&lt;/div&gt;&lt;div&gt;&amp;nbsp;│ authenticated subject&lt;/div&gt;&lt;div&gt;&amp;nbsp;▼&lt;/div&gt;&lt;div&gt;kube-apiserver (control-plane cluster)&lt;/div&gt;&lt;div&gt;&amp;nbsp;│&lt;/div&gt;&lt;div&gt;&amp;nbsp;│ aggregate API&lt;/div&gt;&lt;div&gt;&amp;nbsp;▼&lt;/div&gt;&lt;div&gt;functional-apiserver&lt;/div&gt;&lt;div&gt;&amp;nbsp;│&lt;/div&gt;&lt;div&gt;&amp;nbsp;│ ② map request → capability + context&lt;/div&gt;&lt;div&gt;&amp;nbsp;│&lt;/div&gt;&lt;div&gt;&amp;nbsp;│ ③ authz decision request&lt;/div&gt;&lt;div&gt;&amp;nbsp;▼&lt;/div&gt;&lt;div&gt;authnz.land.gomacondo.com&lt;/div&gt;&lt;div&gt;&amp;nbsp;│&lt;/div&gt;&lt;div&gt;&amp;nbsp;│ ④ allow / deny&lt;/div&gt;&lt;div&gt;&amp;nbsp;▼&lt;/div&gt;&lt;div&gt;functional-apiserver&lt;/div&gt;&lt;div&gt;&amp;nbsp;│&lt;/div&gt;&lt;div&gt;&amp;nbsp;│ ⑤ business validation&lt;/div&gt;&lt;div&gt;&amp;nbsp;│&lt;/div&gt;&lt;div&gt;&amp;nbsp;│ ⑥ persist desired state (CR / DB)&lt;/div&gt;&lt;div&gt;&amp;nbsp;▼&lt;/div&gt;&lt;div&gt;controller / agent (target cluster)&lt;/div&gt;&lt;div&gt;&amp;nbsp;│&lt;/div&gt;&lt;div&gt;&amp;nbsp;│ ⑦ reconcile&lt;/div&gt;&lt;div&gt;&amp;nbsp;▼&lt;/div&gt;&lt;div&gt;target kube-apiserver&lt;/div&gt;&lt;div&gt;&amp;nbsp;│&lt;/div&gt;&lt;div&gt;&amp;nbsp;│ ⑧ resource mutation (SA RBAC)&lt;/div&gt;&lt;div&gt;&amp;nbsp;▼&lt;/div&gt;&lt;div&gt;cluster resources&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-204.5" width="340" height="580" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
